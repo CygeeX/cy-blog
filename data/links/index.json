@@ -1,0 +1,220 @@
+{
+  "categories": [
+    {
+      "categoryName": "好用工具",
+      "websites": [
+        {
+          "images": "https://www.tldraw.com/apple-touch-icon.png",
+          "url": "https://www.tldraw.com/",
+          "title": "Tldraw",
+          "desc": "Music for everyone"
+        },
+        {
+          "images": "https://excalidraw.com/apple-touch-icon.png",
+          "url": "https://excalidraw.com/",
+          "title": "Excalidraw",
+          "desc": "Music for everyone"
+        },
+        {
+          "images": "https://cli.im/favicon.ico",
+          "url": "https://cli.im/",
+          "title": "草料二维码",
+          "desc": "Music for everyone"
+        },
+        {
+          "images": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
+          "url": "https://squoosh.app/",
+          "title": "squoosh",
+          "desc": "图片压缩工具"
+        }
+      ]
+    },
+    {
+      "categoryName": "美工设计",
+      "websites": [
+        {
+          "images": "https://static.figma.com/uploads/b6df2735e4cb368306acf5480b50f96e69f96099",
+          "url": "https://www.figma.com/",
+          "title": "Figma",
+          "desc": "The Collaborative Interface Design Tool"
+        },
+        {
+          "images": "https://www.gaitubao.com/apple-touch-icon.png",
+          "url": "https://www.gaitubao.com/",
+          "title": "改图宝",
+          "desc": "快速、简单的在线修改图片工具"
+        }
+      ]
+    },
+    {
+      "categoryName": "技术开发",
+      "websites": [
+        {
+          "images": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "url": "https://github.com",
+          "title": "GitHub",
+          "desc": "全球最大的开源代码托管平台，开发者的聚集地，有海量的开源项目和丰富的代码资源。"
+        },
+        {
+          "images": "https://icon-sets.iconify.design/favicon.ico",
+          "url": "https://icon-sets.iconify.design/",
+          "title": "Iconify",
+          "desc": "All popular icon sets, one framework."
+        },
+        {
+          "images": "https://railway.com/favicon.ico",
+          "url": "https://railway.com",
+          "title": "Railway",
+          "desc": "Shipping great products is hard. Scaling infrastructure is easy."
+        },
+        {
+          "images": "https://resend.com/static/favicons/favicon.ico",
+          "url": "https://resend.com/",
+          "title": "Resend",
+          "desc": "The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale."
+        },
+        {
+          "images": "https://bolt.new/static/favicon.svg",
+          "url": "https://bolt.new/",
+          "title": "bolt.new",
+          "desc": "AI-Powered Web Development at Your Fingertips"
+        },
+        {
+          "images": "https://logtoeu.blob.core.windows.net/public-blobs/admin/aG3Wi7UOuSQ7/2023/03/19/JVncuuqe/favicon.png",
+          "url": "https://auth.logto.io/",
+          "title": "Logto",
+          "desc": "The better auth and identify infrastructure"
+        }
+      ]
+    },
+    {
+      "categoryName": "开发套餐",
+      "websites": [
+        {
+          "images": "https://nextjs.org/favicon.ico",
+          "url": "https://nextjs.org/",
+          "title": "Nextjs",
+          "desc": "The React Framework for the Web."
+        },
+        {
+          "images": "https://orm.drizzle.team/favicon.ico",
+          "url": "https://orm.drizzle.team/",
+          "title": "Drizzle-orm",
+          "desc": "Drizzle ORM is a headless TypeScript ORM with a head. 🐲"
+        },
+        {
+          "images": "https://assets.vercel.com/image/upload/front/favicon/vercel/apple-touch-icon-72x72.png",
+          "url": "https://vercel.com/",
+          "title": "Vercel",
+          "desc": "一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站"
+        },
+        {
+          "images": "https://supabase.com/favicon/apple-icon-57x57.png",
+          "url": "https://supabase.com/",
+          "title": "Supabase",
+          "desc": "Supabase is an open source Firebase alternative."
+        },
+        {
+          "images": "https://upstash.com/icons/apple-touch-icon.png",
+          "url": "https://upstash.com/",
+          "title": "Upstash",
+          "desc": "Redis Serverless Server"
+        }
+      ]
+    },
+    {
+      "categoryName": "灵感找寻",
+      "websites": [
+        {
+          "images": "https://codepen.io/favicon.ico",
+          "url": "https://codepen.io/",
+          "title": "Codepen",
+          "desc": "An online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets."
+        },
+        {
+          "images": "https://uiverse.io/favicon.ico",
+          "url": "https://uiverse.io/",
+          "title": "uiverse",
+          "desc": "The Largest Library of Open-Source UI"
+        },
+        {
+          "images": "https://www.awwwards.com/favicon.ico",
+          "url": "https://www.awwwards.com/",
+          "title": "awwwards",
+          "desc": "Website Awards - Best Web Design Trends"
+        },
+        {
+          "images": "https://cdn.dribbble.com/assets/favicon-192x192-d70ad402693bdd1a8460da7f9f3c590e817da7369c5287789ac968cf6947d214.png",
+          "url": "https://dribbble.com/",
+          "title": "dribbble",
+          "desc": "Discover the world’s top designers"
+        },
+        {
+          "images": "https://www.ui.cn/favicon.ico",
+          "url": "https://www.ui.cn/",
+          "title": "UI 中国",
+          "desc": "一个设计师必逛的灵感网站！"
+        }
+      ]
+    },
+    {
+      "categoryName": "UI 组件库",
+      "websites": [
+        {
+          "images": "https://ui.shadcn.com/apple-touch-icon.png",
+          "url": "https://ui.shadcn.com/",
+          "title": "Shadcn UI",
+          "desc": "A set of beautifully-designed, accessible, and customizable components to help you build your component library. "
+        },
+        {
+          "images": "https://daisyui.com/favicon.ico",
+          "url": "https://daisyui.com/",
+          "title": "Daisy UI",
+          "desc": "The most popular component library for Tailwind CSS"
+        },
+        {
+          "images": "https://www.hover.dev/favicon.ico",
+          "url": "https://www.hover.dev/",
+          "title": "Hover.dev",
+          "desc": "Animated UI Component and Template for React"
+        },
+        {
+          "images": "https://magicui.design/favicon.ico",
+          "url": "https://magicui.design/",
+          "title": "Magic UI",
+          "desc": "UI library for Design Engineers"
+        },
+        {
+          "images": "https://ui.aceternity.com/apple-icon.png?2deb28af3ac52d4d",
+          "url": "https://ui.aceternity.com/",
+          "title": "Aceternity UI",
+          "desc": "Make your websites look 10x better"
+        },
+        {
+          "images": "https://lunarui.dev/favicon.png",
+          "url": "https://lunarui.dev/",
+          "title": "Lunar UI",
+          "desc": "Build sites that sell well."
+        },
+        {
+          "images": "https://animata.design/apple-touch-icon.png",
+          "url": "https://animata.design/",
+          "title": "Animata Design",
+          "desc": "Hand-crafted ✍️ interaction animations and effects from around the internet 🛜 to copy and paste into your project."
+        },
+        {
+          "images": "https://inspira-ui.com/logo.svg",
+          "url": "https://inspira-ui.com/",
+          "title": "Inspira UI",
+          "desc": "Build beautiful websites using Vue & Nuxt"
+        },
+        {
+          "images": "https://www.reactbits.dev/favicon.ico",
+          "url": "https://www.reactbits.dev/",
+          "title": "Reactbits",
+          "desc": "Animated UI Components For React"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Misc
+.DS_Store
+*.pem
+
+# Local env files
+.env.production
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+.eslint-config-inspector/
+
+# MDX
+data/drafts/
+
+# Content Collections
+.content-collections
+
+# Testing
+data/posts/_test/
+playwright-report/
+test-results/
+coverage/
+**/src/e2e/.auth/
+**/src/e2e/visual/
+!**/src/e2e/visual/visual.config.ts
+!**/src/e2e/visual/homepage.visual.test.ts
+!**/src/e2e/visual/posts.visual.test.ts
+!**/src/e2e/visual/components.visual.test.ts
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA
+public/sw.js
+public/workbox-*.js
+public/swe-worker-*.js
+
+.env.local
+
+#IDE
+.trae/
+
+# Action
+.lighthouseci/

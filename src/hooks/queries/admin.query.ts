@@ -1,0 +1,78 @@
+import { keepPreviousData, useInfiniteQuery, useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+
+import { orpc } from '~/orpc/client'
+
+export function useDashboardStats() {
+  return useQuery(orpc.admin.stats.dashboard.queryOptions())
+}
+
+export function useRecentActivity(limit: number = 10) {
+  return useQuery(
+    orpc.admin.stats.recentActivity.queryOptions({
+      limit,
+    }),
+  )
+}
+
+export function useAdminComments() {
+  return useQuery(orpc.admin.comments.list.queryOptions({ placeholderData: keepPreviousData }))
+}
+
+export function useDeleteAdminComment(onSuccess?: () => void) {
+  const queryClient = useQueryClient()
+  return useMutation(
+    orpc.admin.comments.delete.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: orpc.admin.comments.list.key() })
+        onSuccess?.()
+      },
+    }),
+  )
+}
+
+export function useAdminFriends() {
+  return useQuery(orpc.admin.friends.list.queryOptions({ placeholderData: keepPreviousData }))
+}
+
+export function useAdminTalks() {
+  return useInfiniteQuery(
+    orpc.talks.list.infiniteOptions({
+      input: (pageParam: Date | undefined) => ({ cursor: pageParam }),
+      initialPageParam: undefined,
+      getNextPageParam: lastPage => lastPage.nextCursor,
+      placeholderData: keepPreviousData,
+    }),
+  )
+}
+
+export function useAdminUsers() {
+  return useQuery(orpc.admin.users.list.queryOptions({ placeholderData: keepPreviousData }))
+}
+
+export function useDeleteUser(onSuccess?: () => void) {
+  const queryClient = useQueryClient()
+  return useMutation(
+    orpc.admin.users.delete.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: orpc.admin.users.list.key() })
+        onSuccess?.()
+      },
+    }),
+  )
+}
+
+export function useUpdateUser(onSuccess?: () => void) {
+  const queryClient = useQueryClient()
+  return useMutation(
+    orpc.admin.users.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: orpc.admin.users.list.key() })
+        onSuccess?.()
+      },
+    }),
+  )
+}
+
+export function useAdminAlbum() {
+  return useQuery(orpc.admin.album.list.queryOptions({ placeholderData: keepPreviousData }))
+}
