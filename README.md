@@ -1,15 +1,15 @@
 ## 项目简介
 
 这个博客是我基于开源项目进行学习和搭建的个人网站。  
-在搭建过程中，我参考了https://github.com/eonova/eonova.me的整体框架设计与部分实现思路，在此对原作者表示感谢。
+在搭建过程中，我参考了https://github.com/eonova/eonova.me  的整体框架设计与部分实现思路，在此对原作者表示感谢。
 
 原项目本身是一个个人博客与作品集网站，包含博客展示、项目管理、评论互动等功能，技术栈也比较现代，对我理解个人博客项目的结构和开发流程帮助很大。:
 
 
 ## 致谢
 
-特别感谢开源项目 https://github.com/eonova/eonova.me 的作者https://github.com/eonova。  
-这个项目为我的个人博客搭建提供了很大的参考价值，也让我对博客系统的页面组织、内容管理和整体结构有了更清晰的认识。:contentReference[oaicite:2]{index=2}
+特别感谢开源项目 https://github.com/eonova/eonova.me 的作者https://github.com/eonova   
+这个项目为我的个人博客搭建提供了很大的参考价值，也让我对博客系统的页面组织、内容管理和整体结构有了更清晰的认识。
 
 ## 说明
 
