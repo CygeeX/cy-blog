@@ -1,3 +1,4 @@
+import React from 'react'
 import QuoteCard from '../quote-card'
 import IntroCard from './intro-card'
 

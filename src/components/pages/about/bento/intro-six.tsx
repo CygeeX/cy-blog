@@ -1,3 +1,4 @@
+import React from 'react'
 import { APPOINT_END_DATE, APPOINT_START_DATE } from '~/config/about-profiles'
 import BackgroundFont from '../../../shared/background-font'
 import AppointProgress from '../appoint-progress'
@@ -9,7 +10,7 @@ const IntroSix: React.FC = () => {
       className="col-span-1 h-80 backdrop-blur-xs md:col-span-4 lg:col-span-8 dark:bg-[#1d1e22]/30"
       subheading="约定"
       title="六年之约"
-      desc="与jack叔叔的约定"
+      desc="与小姨的约定"
     >
       <div className="mt-10 flex flex-col gap-3">
         <AppointProgress

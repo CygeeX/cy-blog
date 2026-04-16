@@ -6,9 +6,9 @@ export const SITE_URL = IS_PRODUCTION ? 'https://eonova.me' : 'http://localhost:
 export const MY_NAME = 'Nova Eon'
 export const GITHUB_USERNAME = 'eonova'
 
-export const SITE_NAME = 'Eonova\'s Space'
-export const SITE_TITLE = 'Eonova - A Full Stack Developer'
-export const SITE_DESCRIPTION = 'Eonova • Full Stack Developer'
+export const SITE_NAME = 'Gorge\'s Space'
+export const SITE_TITLE = 'Gorge - A Full Stack Developer'
+export const SITE_DESCRIPTION = 'Gorge • Full Stack Developer'
 export const SITE_KEYWORDS = [
   'Eonova',
   'eonova',

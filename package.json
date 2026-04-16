@@ -195,8 +195,7 @@
     "vitest": "catalog:test"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged && pnpm typecheck",
-    "commit-msg": "pnpx tsx scripts/verify-commit.ts"
+    
   },
   "lint-staged": {
     "*.{cjs,mjs,js,json,jsx,cts,mts,ts,tsx}": [

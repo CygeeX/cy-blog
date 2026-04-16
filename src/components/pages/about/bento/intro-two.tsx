@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {
@@ -59,7 +60,7 @@ const IntroTwo: React.FC = () => {
         </div>
         <Image
           className="absolute right-5 bottom-[-15] duration-300 hover:rotate-6"
-          src="/images/about/leo.png"
+          src="/images/about/sag.png"
           alt={MBTI_PERSONALITY}
           width={160}
           height={100}

@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'next/image'
 import { LINK_MUSIC } from '~/config/about-profiles'
 import IntroCard from './intro-card'
@@ -10,8 +11,8 @@ const IntroFour: React.FC<IntroFourProps> = () => {
       <IntroCard
         className="col-span-1 h-56 rounded-3xl text-white backdrop-blur-xs md:col-span-2 lg:col-span-4 lg:h-72"
         subheading="番剧"
-        title="Charlotte"
-        desc="友利奈绪"
+        title="哈尔的移动城堡"
+        desc="ハウル・ジェンキンス・ペンドラゴン"
         isColor
       >
         <Image
