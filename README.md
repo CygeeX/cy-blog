@@ -1,122 +1,28 @@
-<h3 align="center"> eonova.me </h3>
+# 我的个人博客
 
-![Preview](./public//images/projects/eonova.me.png)
+这是我的个人博客项目，用来记录学习过程、整理笔记、展示作品，以及分享一些开发中的思考和实践。
 
-<div align="center">
-  <a href="./README_CN.md"> 🇨🇳 简体中文</a>
-  |
-  <a href="https://eonova.me"> 👀 preview</a>
-</div>
+## 项目简介
 
-## 🎉 Introduction
+这个博客是我基于开源项目进行学习和搭建的个人网站。  
+在搭建过程中，我参考了 [eonova/eonova.me](https://github.com/eonova/eonova.me) 的整体框架设计与部分实现思路，在此对原作者表示感谢。
 
-A personal blog and portfolio built with modern technology stack, integrating technical article display, open source project management, and rich interactive features.
+原项目本身是一个个人博客与作品集网站，包含博客展示、项目管理、评论互动等功能，技术栈也比较现代，对我理解个人博客项目的结构和开发流程帮助很大。:contentReference[oaicite:1]{index=1}
 
-## 🌌 Features
+## 功能说明
 
--   **Content Management**: Blog posts, Notes, Projects, and Photo Album with MDX support.
--   **Interactive Comments**: Nested replies, markdown support, emoji reactions, and email notifications.
--   **Media Experience**: Global music player, masonry photo gallery, and video support.
--   **Social Features**: Guestbook, Friends links, and "Talk" (micro-blogging).
--   **User System**: Authentication (GitHub/Google), Profile management, and Active sessions tracking.
--   **Admin Dashboard**: comprehensive management for content, comments, users, and more.
--   **AI Integration**: AI-powered summary for blog posts.
--   **Performance & SEO**: SSR/ISR, Sitemap, RSS feed, and PWA support.
--   **Search**: Full-text search capability.
+当前博客主要用于：
 
-## ✨ Tech Stack
+- 记录学习笔记
+- 展示个人项目
+- 分享开发过程中的问题与总结
+- 作为个人主页进行内容整理
 
-```mermaid
-graph TD
-    A[Frontend] --> B["Next.js 15 (App Router)"]
-    A --> C["Tailwind CSS 4"]
-    A --> D["TypeScript 5.7"]
-    A --> E["React 19"]
-    A --> F["Framer Motion"]
+## 致谢
 
-    G[Backend & Data] --> H["Drizzle ORM"]
-    G --> I["oRPC (Type-safe RPC)"]
-    H --> J["PostgreSQL"]
-    I --> K["Redis (Upstash)"]
-    G --> L["Better Auth"]
+特别感谢开源项目 [eonova/eonova.me](https://github.com/eonova/eonova.me) 的作者。  
+这个项目为我的个人博客搭建提供了很大的参考价值，也让我对博客系统的页面组织、内容管理和整体结构有了更清晰的认识。:contentReference[oaicite:2]{index=2}
 
-    M[Build & Tools] --> N["pnpm 10"]
-    M --> O["Content Collections"]
-    M --> P["Playwright & Vitest"]
-    M --> Q["ESLint 9"]
+## 说明
 
-    classDef framework fill:#2196F3,stroke:#1976D2;
-    classDef service fill:#FFC107,stroke:#000;
-    classDef build fill:#9C27B0,stroke:#7B1FA2;
-
-    class A,D,E,M,N,P,Q service;
-    class B,C,F,H,I,J,K,L,O build;
-```
-
-## 🚀 Quick Start
-
-### Vercel One-Click Deployment
-
-[![Deploy with Vercel](https://vercel.com/button)](<https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Feonova%2Feonova.me&env=SITE_URL,SITE_AUTHOR>)
-
-### Docker Compose Deployment
-
-```bash
-docker compose up -d
-```
-
-## 🖥️ Local Development
-
-### Prerequisites
-
--   Node.js >= 22
--   pnpm >= 10
--   PostgreSQL
--   Redis
-
-### Setup
-
-```bash
-# Install dependencies
-pnpm i
-
-# Set up environment variables
-cp .env.example .env.local
-# Edit .env.local with your credentials
-
-# Database initialization
-pnpm db:generate
-pnpm db:migrate
-pnpm db:seed
-
-# Start development server
-pnpm dev
-```
-
-### Key Scripts
-
-```bash
-# Build production version
-pnpm build
-
-# Type checking
-pnpm typecheck
-
-# Code linting
-pnpm lint
-
-# Database management (Studio)
-pnpm db:studio
-
-# Run Unit Tests
-pnpm test:unit
-
-# Run E2E Tests
-pnpm test:e2e
-```
-
-## ☕️ Buy me a coffee
-
-<div align="center">
-  <img src="./public//images/wechat-pay.png" alt="Admire" width="70%"/>
-</div>
+本项目是在学习和参考开源项目的基础上，根据自己的需求进行修改与调整，仅作为个人学习和使用用途。
