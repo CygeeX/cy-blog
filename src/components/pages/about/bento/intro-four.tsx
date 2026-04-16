@@ -32,7 +32,7 @@ const IntroFour: React.FC<IntroFourProps> = () => {
       >
         <Image
           className="absolute top-0 left-0 z-[-1] w-full sm:h-full"
-          src="/images/about/running.png"
+          src="/images/about/running.jpg"
           alt="长跑"
           width={200}
           height={150}
