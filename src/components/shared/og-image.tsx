@@ -38,7 +38,7 @@ function OGImage(props: OGImageProps) {
       }}
     >
       <img
-        src={`${baseUrl}/favicon/apple-touch-icon.png`}
+        src={`${baseUrl}/favicon/favicon.svg`}
         width={48}
         height={48}
         alt=""
@@ -46,7 +46,7 @@ function OGImage(props: OGImageProps) {
       />
       <div style={{ fontSize, maxWidth: 740, fontWeight: 600 }}>{title}</div>
       <div style={{ display: 'flex', fontSize: 30, position: 'absolute', right: 50, bottom: 50, fontWeight: 500 }}>
-        eonova.me
+        Corge.me
         {url}
       </div>
     </div>
