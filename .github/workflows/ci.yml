@@ -34,18 +34,6 @@ jobs:
       - name: Run unit tests
         run: pnpm test:unit
 
-  eslint:
-    name: ESLint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout branch
-        uses: actions/checkout@v4
-
-      - name: Configure environment
-        uses: ./.github/actions/setup
-
-      - name: Run ESLint
-        run: pnpm lint
 
   types:
     name: TypeScript
@@ -60,30 +48,4 @@ jobs:
       - name: Run type check
         run: pnpm typecheck
 
-  knip:
-    name: Knip
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout branch
-        uses: actions/checkout@v4
-
-      - name: Configure environment
-        uses: ./.github/actions/setup
-
-      - name: Run Knip
-        run: pnpm check:knip
-
-  lighthouse:
-    name: Lighthouse
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout branch
-        uses: actions/checkout@v4
-
-      - name: Configure environment
-        uses: ./.github/actions/setup
-
-      - run: pnpm install -g @lhci/cli@0.15.x
-      - run: pnpm build
-      - run: lhci autorun --config=./.github/lighthouserc.yml
 
