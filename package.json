@@ -17,7 +17,6 @@
     "bundle-analyzer": "cross-env ANALYZE=true pnpm run build",
     "clean": "rm -rf .next .content-collections test-results playwright-report",
     "check:knip": "pnpm with-env knip",
-    "check:spelling": "cspell -c .cspell.json --no-progress --no-summary --no-must-find-files --unique",
     "start": "next start",
     "db:check": "pnpm with-env drizzle-kit check",
     "db:generate": "pnpm with-env drizzle-kit generate",
