@@ -10,7 +10,13 @@ import { getNoteBySlug, getPostBySlug } from '~/lib/content'
 import { getBaseUrl } from '~/utils/get-base-url'
 import { getPathnames } from '~/utils/get-pathnames'
 
-export async function GET(_request: Request, props: RouteContext<'/og/[...slug]'>) {
+interface RouteContext {
+  params: Promise<{
+    slug: string[]
+  }>
+}
+
+export async function GET(_request: Request, props: RouteContext) {
   const { params } = props
   const { slug } = await params
   const normalizedSlug = slug.slice(0, -1)

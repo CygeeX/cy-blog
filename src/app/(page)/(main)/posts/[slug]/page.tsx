@@ -20,7 +20,14 @@ import { getPostBySlug } from '~/lib/content'
 import { createMetadata } from '~/lib/metadata'
 import { getBaseUrl } from '~/utils/get-base-url'
 
-export async function generateMetadata(props: PageProps<'/posts/[slug]'>): Promise<Metadata> {
+interface PageProps {
+  params: Promise<{
+    slug: string
+  }>
+  searchParams: Promise<Record<string, string | string[] | undefined>>
+}
+
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { params } = props
   const { slug } = await params
 
@@ -46,7 +53,7 @@ export function generateStaticParams() {
   return allPosts.map(p => ({ slug: p.slug }))
 }
 
-function Page(props: PageProps<'/posts/[slug]'>) {
+function Page(props: PageProps) {
   const { params } = props
   const { slug } = use(params)
 

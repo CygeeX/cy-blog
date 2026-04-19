@@ -5,7 +5,11 @@ import AccountMobileNav from '~/components/modules/account/account-mobile-nav'
 import AccountSidebar from '~/components/modules/account/account-sidebar'
 import { getSession } from '~/lib/auth'
 
-async function Layout(props: LayoutProps<'/'>) {
+interface LayoutProps {
+  children: React.ReactNode
+}
+
+async function Layout(props: LayoutProps) {
   const { children } = props
 
   const session = await getSession()

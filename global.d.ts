@@ -13,3 +13,9 @@ declare module 'react' {
     [key: `--${string}`]: string | number | undefined
   }
 }
+
+declare module '@/public/images/home/call-me.jpg' {
+  import type { StaticImageData } from 'next/image'
+  const value: StaticImageData
+  export default value
+}

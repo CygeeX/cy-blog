@@ -1,4 +1,8 @@
-function Layout(props: LayoutProps<'/unsubscribe'>) {
+interface LayoutProps {
+  children: React.ReactNode
+}
+
+function Layout(props: LayoutProps) {
   const { children } = props
 
   return <div className="flex min-h-dvh min-w-screen items-center justify-center p-4">{children}</div>

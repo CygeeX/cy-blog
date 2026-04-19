@@ -3,7 +3,12 @@ import UnsubscribeForm from '~/components/modules/unsubscribe/unsubscribe-form'
 import { getReplyUnsubData } from '~/lib/unsubscribe'
 import { loadUnsubscribeParams } from '~/lib/unsubscribe-params'
 
-async function Page(props: PageProps<'/unsubscribe'>) {
+interface PageProps {
+  params: Promise<Record<string, string | string[] | undefined>>
+  searchParams: Promise<Record<string, string | string[] | undefined>>
+}
+
+async function Page(props: PageProps) {
   const { searchParams } = props
   const { token } = await loadUnsubscribeParams(searchParams)
   const data = await getReplyUnsubData(token)

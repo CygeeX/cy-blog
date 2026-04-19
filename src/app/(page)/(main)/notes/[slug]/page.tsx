@@ -20,7 +20,14 @@ import { getBaseUrl } from '~/utils'
 
 const url = '/notes'
 
-export async function generateMetadata(props: PageProps<'/notes/[slug]'>): Promise<Metadata> {
+interface PageProps {
+  params: Promise<{
+    slug: string
+  }>
+  searchParams: Promise<Record<string, string | string[] | undefined>>
+}
+
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { params } = props
   const { slug } = await params
   const note = getNoteBySlug(slug)
@@ -43,7 +50,7 @@ export function generateStaticParams() {
   return allNotes.map(n => ({ slug: n.slug }))
 }
 
-function Page(props: PageProps<'/notes/[slug]'>) {
+function Page(props: PageProps) {
   const { params } = props
   const { slug } = use(params)
 
