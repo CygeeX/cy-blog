@@ -2,7 +2,7 @@
 
 import { motion, useAnimate, useInView } from 'motion/react'
 import { useEffect, useRef } from 'react'
-import me from '@/public/images/home/call-me.jpg'
+const me = '/images/home/call-me.jpg'
 
 import { BlurImage } from '~/components/base/blur-image'
 
