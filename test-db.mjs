@@ -5,11 +5,17 @@ console.log('url =', url)
 
 const sql = postgres(url)
 
-try {
-  const rows = await sql`select current_database() as db, current_user as "user"`
-  console.log('连接成功：', rows)
-} catch (err) {
-  console.error('连接失败：', err)
-} finally {
-  await sql.end({ timeout: 1 }).catch(() => {})
+async function main() {
+  try {
+    const rows = await sql`select current_database() as db, current_user as "user"`
+    console.log('连接成功：', rows)
+  }
+  catch (err) {
+    console.error('连接失败：', err)
+  }
+  finally {
+    await sql.end({ timeout: 1 }).catch(() => {})
+  }
 }
+
+main()

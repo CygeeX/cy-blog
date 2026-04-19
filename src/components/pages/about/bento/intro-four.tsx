@@ -1,5 +1,5 @@
-import React from 'react'
 import Image from 'next/image'
+import * as React from 'react'
 import { LINK_MUSIC } from '~/config/about-profiles'
 import IntroCard from './intro-card'
 

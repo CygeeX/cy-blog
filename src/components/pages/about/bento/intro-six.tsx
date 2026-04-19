@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { APPOINT_END_DATE, APPOINT_START_DATE } from '~/config/about-profiles'
 import BackgroundFont from '../../../shared/background-font'
 import AppointProgress from '../appoint-progress'

@@ -40,7 +40,6 @@ volumes:
   db:
   redis:
 
-
 networks:
   eonova-network:
     driver: bridge

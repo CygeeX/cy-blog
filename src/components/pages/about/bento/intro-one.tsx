@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import BackgroundFont from '../../../shared/background-font'
 import DoubleCard from './double-card'
 import IntroCard from './intro-card'

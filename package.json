@@ -195,7 +195,6 @@
     "vitest": "catalog:test"
   },
   "simple-git-hooks": {
-    
   },
   "lint-staged": {
     "*.{cjs,mjs,js,json,jsx,cts,mts,ts,tsx}": [

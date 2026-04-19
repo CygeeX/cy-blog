@@ -1,6 +1,6 @@
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import * as React from 'react'
 import {
   MBTI_PERSONALITY,
   MBTI_PERSONALITY_NAME,
