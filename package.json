@@ -39,7 +39,8 @@
     "preinstall": "npx only-allow pnpm",
     "postinstall": "simple-git-hooks",
     "deps:up": "taze",
-    "plop": "cross-env NODE_OPTIONS='--import tsx' plop --plopfile=plop.config.ts"
+    "plop": "cross-env NODE_OPTIONS='--import tsx' plop --plopfile=plop.config.ts",
+    "prepare": "husky"
   },
   "peerDependencies": {
     "@tanstack/react-table": "^8",
@@ -177,6 +178,7 @@
     "drizzle-kit": "catalog:script",
     "eslint-plugin-react-hooks": "catalog:lint",
     "eslint-plugin-react-refresh": "catalog:lint",
+    "husky": "^9.1.7",
     "jsdom": "catalog:test",
     "lint-staged": "catalog:lint",
     "oxfmt": "catalog:lint",
@@ -193,8 +195,7 @@
     "typescript": "catalog:build",
     "vitest": "catalog:test"
   },
-  "simple-git-hooks": {
-  },
+  "simple-git-hooks": {},
   "lint-staged": {
     "*.{cjs,mjs,js,json,jsx,cts,mts,ts,tsx}": [
       "eslint . --max-warnings 0 --fix"
