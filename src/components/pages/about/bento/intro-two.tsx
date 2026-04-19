@@ -71,16 +71,16 @@ const IntroTwo: React.FC = () => {
           <Link
             target="black"
             className="text-black/80 duration-300 hover:text-black/40"
-            href="https://www.xzw.com/fortune/"
+            href="https://www.1212.com/"
           >
-            星座屋
+            星座乐
           </Link>
           {' '}
           了解更多关于
           <Link
             target="black"
             className="text-black/80 duration-300 hover:text-black/40"
-            href="https://www.xzw.com/fortune/leo/"
+            href="https://www.1212.com/astro/sagittarius/"
           >
             {STAR_SIGN}
           </Link>
