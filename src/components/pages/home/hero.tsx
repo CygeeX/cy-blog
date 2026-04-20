@@ -84,7 +84,7 @@ function Hero() {
             <div>
               我是
               {' '}
-              <WriteLogo className="h-12 sm:h-16" />
+              <WriteLogo />
               {' '}
               ，一个爱捣鼓的前端
             </div>
