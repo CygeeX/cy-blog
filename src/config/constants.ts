@@ -10,19 +10,19 @@ export const SITE_NAME = 'Gorge\'s Space'
 export const SITE_TITLE = 'Gorge - A Full Stack Developer'
 export const SITE_DESCRIPTION = 'Gorge • Full Stack Developer'
 export const SITE_KEYWORDS = [
-  'Eonova',
-  'eonova',
+  'Gorge',
+  'gorge',
   'Nova Eon',
-  'Next.js',
+  'Next.js
   'React',
   'TypeScript',
   'Node.js',
 ]
 
-export const SITE_GITHUB_URL = 'https://github.com/eonova'
-export const SITE_INSTAGRAM_URL = 'https://www.instagram.com/030eonova'
-export const SITE_X_URL = 'https://x.com/030Eonova'
-export const SITE_YOUTUBE_URL = 'https://www.youtube.com/@030Eonova'
+export const SITE_GITHUB_URL = 'https://github.com/CygeeX'
+export const SITE_INSTAGRAM_URL = 'https://www.instagram.com/a3178789048/'
+export const SITE_X_URL = 'https://x.com/diemCarpe311800'
+export const SITE_YOUTUBE_URL = 'https://www.youtube.com/@Cygeex'
 
 export const OG_IMAGE_WIDTH = 1200
 export const OG_IMAGE_HEIGHT = 630

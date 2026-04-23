@@ -12,7 +12,7 @@ function Footer() {
             </Link>
           </Column>
           <Column className="align-middle">
-            <Link href="https://github.com/eonova/eonova.me" className="text-xl text-black">
+            <Link href="https://github.com/CygeeX/cy-blog" className="text-xl text-black">
               <Img src="https://eonova.me/images/email/github.png" alt="GitHub" width={22} height={22} />
             </Link>
           </Column>
@@ -23,7 +23,7 @@ function Footer() {
         {' '}
         {new Date().getFullYear()}
         {' '}
-        Eonova. All rights reserved.
+        Gorge. All rights reserved.
       </Text>
     </>
   )
