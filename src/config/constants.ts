@@ -13,7 +13,7 @@ export const SITE_KEYWORDS = [
   'Gorge',
   'gorge',
   'Nova Eon',
-  'Next.js
+  'Next.js',
   'React',
   'TypeScript',
   'Node.js',
