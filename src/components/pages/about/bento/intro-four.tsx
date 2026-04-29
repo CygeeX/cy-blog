@@ -27,7 +27,7 @@ const IntroFour: React.FC<IntroFourProps> = () => {
         className="col-span-1 h-60 rounded-3xl text-white backdrop-blur-xs md:col-span-1 lg:col-span-2 lg:h-72"
         subheading="运动"
         title="Sport"
-        desc="长跑爱好者"
+        desc="中长跑爱好者"
         isColor
       >
         <Image

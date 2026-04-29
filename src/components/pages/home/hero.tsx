@@ -133,8 +133,8 @@ function Hero() {
         >
           <TiltedCard
             imageSrc="/images/home/avatar.png"
-            altText="Eonova"
-            captionText="Eonova"
+            altText="Gorge"
+            captionText="Gorge"
             rotateAmplitude={18}
             scaleOnHover={1.2}
             showMobileWarning={false}

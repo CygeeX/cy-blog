@@ -22,7 +22,7 @@ const Bento: React.FC<BentoProps> = () => {
       <IntroFive />
       <VelocityScroll
         className="text-center font-sans text-3xl font-bold text-black md:text-4xl dark:text-white"
-        text="KEEP GOING EONOVA.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        text="KEEP GOING GORGE.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
         default_velocity={5}
       />
       <IntroSix />

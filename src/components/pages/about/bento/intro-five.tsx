@@ -13,9 +13,9 @@ const IntroFive: React.FC = () => {
       </IntroCard>
       <QuoteCard
         className="col-span-1 h-56 rounded-3xl backdrop-blur-xs md:col-span-2 lg:col-span-5"
-        by="梭罗"
+        by="me"
       >
-        人生是旷野，不是轨道。
+        按住w往前走
       </QuoteCard>
     </>
   )

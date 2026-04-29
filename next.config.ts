@@ -5,7 +5,7 @@ import bundleAnalyzer from '@next/bundle-analyzer'
 import { IS_PRODUCTION } from './src/config/constants'
 import { env } from './src/lib/env'
 
-process.title = 'Eonova (NextJS)'
+process.title = 'Gorge (NextJS)'
 
 const withMDX = createMDX({
   configPath: './content.config.ts',

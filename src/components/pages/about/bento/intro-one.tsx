@@ -14,10 +14,10 @@ const IntroOne: React.FC = () => {
       >
         <div className="font-dingtalk text-indigo-100 mt-3">
           <h2>你好，很高兴认识你👋</h2>
-          <p>我是 Cygg</p>
+          <p>我是 Cygee</p>
         </div>
         <BackgroundFont className="absolute bottom-0 left-20 text-8xl text-white/20 sm:text-[130px]">
-          EONOVA
+          GORGE
         </BackgroundFont>
       </IntroCard>
       <DoubleCard className="col-span-1 flex flex-col justify-between gap-5 md:col-span-2 lg:col-span-3" />

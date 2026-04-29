@@ -5,7 +5,7 @@ function Logo() {
     <Section className="mb-6">
       <Img
         src="https://eonova.me/images/avatar.png"
-        alt="Eonova's logo"
+        alt="Gorge's logo"
         width="48"
         height="48"
         className="rounded-full"

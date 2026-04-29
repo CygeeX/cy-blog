@@ -1,5 +1,5 @@
 ---
-title: 使用 Husky 配置 Commit 和 Push 前的 TypeScript 格式检查
+title: 使用 Husky 配置 TS 格式检查
 date: '2026-04-27T21:18:00Z'
 modifiedTime: '2026-04-27T21:18:00Z'
 intro: 通过 Husky 在 Git 的 commit 和 push 前自动检查 TypeScript 代码格式，保证提交质量。

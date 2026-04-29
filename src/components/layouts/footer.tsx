@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             ? new Date().getFullYear()
             : `2025-${new Date().getFullYear()}`}
           <Link href={SITE_GITHUB_URL} className="ml-1">
-            Eonova
+            Gorge
           </Link>
         </div>
         <Link href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
